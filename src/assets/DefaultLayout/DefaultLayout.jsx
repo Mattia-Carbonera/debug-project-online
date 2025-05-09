@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import NavLinkComponent from "../../components/navLink";
+import NavLinkComponent from "../../components/NavLink";
 
 export default function DefaultLayout({ children }) {
   const location = useLocation();
