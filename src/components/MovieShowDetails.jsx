@@ -1,4 +1,8 @@
+import { useEffect } from "react";
+
 export default function GameShowDetails({ response }) {
+  useEffect(() => window.scrollTo(0, 0), [response]);
+
   return (
     <div className="show-container-content">
       {/* description */}
